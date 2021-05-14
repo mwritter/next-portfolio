@@ -1,10 +1,15 @@
 import { TECH_BADGES } from "../data";
+import Head from 'next/head';
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const badges = TECH_BADGES;
   return (
+    <>
+    <Head>
+      <title>Matthew Ritter</title>
+    </Head>
     <div className={styles.container}>
       <div className={styles["card-page"]}>
         <div className={styles.heading}>Hi my name is Matthew Ritter</div>
@@ -31,5 +36,6 @@ export default function Home() {
         </div>
       </div>
     </div>
+    </>
   );
 }

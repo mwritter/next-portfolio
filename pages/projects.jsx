@@ -1,4 +1,5 @@
 import { PROJECT_DATA } from "../data";
+import Head from 'next/head';
 import Image from "next/image";
 import { buildUrl } from "cloudinary-build-url";
 
@@ -39,6 +40,10 @@ const Projects = () => {
   };
 
   return (
+    <>
+    <Head>
+      <title>Projects</title>
+    </Head>
     <main className={styles.container}>
       <div className={styles["card-page"]}>
         <div className={styles.projects}>
@@ -103,6 +108,7 @@ const Projects = () => {
         </div>
       </div>
     </main>
+    </>
   );
 };
 

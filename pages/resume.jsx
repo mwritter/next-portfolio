@@ -1,9 +1,13 @@
 import { PROJECT_DATA } from "../data";
-
+import Head from 'next/head';
 import styles from "../styles/Resume.module.css";
 
 const Resume = () => {
   return (
+    <>
+    <Head>
+      <title>Resume</title>
+    </Head>
     <div className={styles.container}>
       <div className={styles["card-page"]}>
         <h1>Matthew Ritter</h1>
@@ -82,6 +86,7 @@ const Resume = () => {
         </section>
       </div>
     </div>
+    </>
   );
 };
 
