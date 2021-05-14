@@ -41,18 +41,18 @@ const Resume = () => {
           <h4>Full Stack Software Engineer</h4>
           <p>Azalea Health Innovations Inc.</p>
           <ul>
-              <li>Worked closely with team memebers in a fast paste agile environment using continuous integration and delivery practices.</li>
-              <li>Improved application stability and performance through features and bug fixes.</li>
-              <li>Participated in pair programming, mentoring, peer review and on boarding for new engineers.</li>
-              <li>Implemented full stack solutions to achieve client goals related but not limited to workflow improvements, patient privacy, client reporting, HIPAA auditing, and encounter charting.</li>
+              <li>Work closely with team memebers in a fast paced agile environment using continuous integration and delivery practices.</li>
+              <li>Improve application stability and performance through features and bug fixes.</li>
+              <li>Participate in pair programming, mentoring, peer review and on boarding for new engineers.</li>
+              <li>Implemente full stack solutions to achieve client goals related to workflow improvements, patient privacy, client reporting, HIPAA auditing, and encounter charting.</li>
           </ul>
         </section>
         <section className={styles.section}>
           <h2>Skills</h2>
           <div className={styles.info}>
             <span>
-              <b>Web:</b> React, Redux, Vue, Next, Express, .NET, C#, MongoDB,
-              Firebase, Heroku, MLab, CSS, Bootstrap, HTML, JavaScript
+              <b>Web:</b> React, Redux, Vue, Backbone, Next, Express, .NET, C#, MongoDB,
+              Firebase, Heroku, MLab, CSS, SASS, Bootstrap, PHP, HTML, JavaScript
             </span>
             <span>
               <b>Mobile:</b> Jave, Dart, Flutter, Cloud-Firestore
