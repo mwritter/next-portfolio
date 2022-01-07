@@ -59,7 +59,7 @@ export const TECH_BADGES = [
     {
         title: "HTML",
         image_id: "html_badge_rgxntv",
-        url: 'https://cdn.worldvectorlogo.com/logos/html5.svg'
+        url: 'https://cdn.worldvectorlogo.com/logos/html-1.svg'
 
     },
     {
