@@ -65,7 +65,7 @@ export const TECH_BADGES = [
     {
         title: "CSS",
         image_id: "css_badge_xauztu",
-        url: 'https://cdn.worldvectorlogo.com/logos/css-5.svg'
+        url: 'https://cdn.worldvectorlogo.com/logos/css-3.svg'
 
     },
     {
