@@ -8,10 +8,10 @@ const Resume = () => {
     <Head>
       <title>Resume</title>
     </Head>
-    <div className={styles.container}>
-      <div className={styles["card-page"]}>
-        <h1>Matthew Ritter</h1>
-        <div className={styles.info}>
+    <div className="flex justify-center text-xl">
+      <div className="flex flex-col align-middle bg-opacity-50 bg-gray-200 mx-auto my-auto md:max-w-7xl rounded-2xl md:p-32 p-10 gap-10 mt-60 mb-20">
+        <h1 className="text-4xl text-center">Matthew Ritter</h1>
+        <div className="grid gap-5 justify-center">
           <span>
             <b>Phone:</b> 229-977-5525
           </span>
@@ -28,8 +28,8 @@ const Resume = () => {
             </a>
           </span>
         </div>
-        <section className={styles.section}>
-          <h2>Profile</h2>
+        <section>
+          <h2 className="text-2xl font-bold mb-2">Profile</h2>
           <p>Software Engineer</p>
           <p>
             <i>
@@ -40,45 +40,48 @@ const Resume = () => {
             </i>
           </p>
         </section>
-        <section className={styles.section}>
-          <h2>Work Experience</h2>
+        <section>
+          <h2 className="text-2xl font-bold mb-2">Work Experience</h2>
           <h4>Full Stack Software Engineer</h4>
           <p>Azalea Health Innovations Inc.</p>
-          <ul>
-              <li>Work closely with team memebers in a fast paced agile environment using continuous integration and delivery practices.</li>
-              <li>Improve application stability and performance through features and bug fixes.</li>
-              <li>Participate in pair programming, mentoring, peer review and on boarding for new engineers.</li>
-              <li>Implemente full stack solutions to achieve client goals related to workflow improvements, patient privacy, client reporting, HIPAA auditing, and encounter charting.</li>
+          <ul className="list-circle sm:ml-16">
+              <li className="m-5">Work closely with team memebers in a fast paced agile environment using continuous integration and delivery practices.</li>
+              <li className="m-5">Improve application stability and performance through features and bug fixes.</li>
+              <li className="m-5">Participate in pair programming, mentoring, peer review and on boarding for new engineers.</li>
+              <li className="m-5">Implemente full stack solutions to achieve client goals related to workflow improvements, patient privacy, client reporting, HIPAA auditing, and encounter charting.</li>
           </ul>
         </section>
-        <section className={styles.section}>
-          <h2>Skills</h2>
-          <div className={styles.info}>
-            <span>
-              <b>Web:</b> React, Redux, Vue, Backbone, Next, Express, .NET, C#, MongoDB,
-              Firebase, Heroku, MLab, CSS, SASS, Bootstrap, PHP, HTML, JavaScript
-            </span>
-            <span>
-              <b>Mobile:</b> Jave, Dart, Flutter, Cloud-Firestore
-            </span>
-            <span>
-              <b>Data Science:</b> Python, Shell Script, Rust
-            </span>
+        <section className>
+          <h2 className="text-2xl font-bold mb-2">Skills</h2>
+          <div className="grid gap-5">
+            <ul className="list-circle sm:ml-16">
+              <li className="m-5">
+                <u className="ml-2">Web:</u> React, Redux, Vue, Backbone, Next, Express, .NET, C#, CSS, SASS, Bootstrap, Tailwind, PHP, HTML, JavaScript
+              </li>
+              <li className="m-5">
+              <u className="ml-2">Mobile:</u> Jave, Dart, Flutter, Cloud-Firestore
+              </li>
+              <li className="m-5">
+              <u className="ml-2">Data Science:</u> Python, Shell Script, Rust
+              </li>
+            </ul>
           </div>
         </section>
         <section>
-          <h2>Projects</h2>
-          {PROJECT_DATA.map((project) => (
-            <div key={project.title} className={styles.gitLink}>
-              <a target="blank" href={project.link}>
-                {project.title}
-              </a>
-              <p>{project.desc}</p>
-            </div>
-          ))}
+          <h2 className="text-2xl font-bold mb-2">Projects</h2>
+          <div className="grid gap-5">
+            {PROJECT_DATA.map((project) => (
+              <div key={project.title} className={styles.gitLink}>
+                <a target="blank" href={project.link}>
+                  {project.title}
+                </a>
+                <p>{project.desc}</p>
+              </div>
+            ))}
+          </div>
         </section>
         <section>
-          <h2>Education</h2>
+          <h2 className="text-2xl font-bold mb-2">Education</h2>
           <p>
             Valdosta State University, Valdosta, Ga – BS in Computer Information
             Systems

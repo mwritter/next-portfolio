@@ -44,9 +44,10 @@ const Projects = () => {
     <Head>
       <title>Projects</title>
     </Head>
-    <main className={styles.container}>
-      <div className={styles["card-page"]}>
-        <div className={styles.projects}>
+    <main className="grid justify-center items-center text-lg mx-auto">
+      <p className="mt-52 text-center mb-2">These are a few projects I've worked on recently - feel free to click on them to check out the code</p>
+      <div className="flex flex-col items-center justify-center bg-gray-200 bg-opacity-50 max-w-7xl rounded-2xl">
+        <div className="flex flex-wrap justify-center gap-16 mt-10">
           {PROJECT_DATA.map((project) => (
             <div
               className={styles["project-card-container"]}
