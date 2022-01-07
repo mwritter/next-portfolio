@@ -129,6 +129,12 @@ export const TECH_BADGES = [
 
     },
     {
+        title: "Tailwindcss",
+        image_id: "tailwind",
+        url: 'https://cdn.worldvectorlogo.com/logos/tailwindcss'
+
+    },
+    {
         title: "Python",
         image_id: "python_badge_cikdxw",
         url: 'https://cdn.worldvectorlogo.com/logos/python-5.svg'
