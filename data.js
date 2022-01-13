@@ -57,15 +57,21 @@ export const TECH_BADGES = [
 
     },
     {
+        title: "Typescript",
+        image_id: "typescript",
+        url: 'https://cdn.worldvectorlogo.com/logos/typescript.svg'
+
+    },
+    {
         title: "HTML",
         image_id: "html_badge_rgxntv",
-        url: 'https://cdn.worldvectorlogo.com/logos/html5.svg'
+        url: 'https://cdn.worldvectorlogo.com/logos/html-1.svg'
 
     },
     {
         title: "CSS",
         image_id: "css_badge_xauztu",
-        url: 'https://cdn.worldvectorlogo.com/logos/css-5.svg'
+        url: 'https://res.cloudinary.com/mwritter/image/upload/v1620216179/css_badge_xauztu.png'
 
     },
     {
@@ -129,6 +135,12 @@ export const TECH_BADGES = [
 
     },
     {
+        title: "Tailwindcss",
+        image_id: "tailwind",
+        url: 'https://cdn.worldvectorlogo.com/logos/tailwindcss.svg'
+
+    },
+    {
         title: "Python",
         image_id: "python_badge_cikdxw",
         url: 'https://cdn.worldvectorlogo.com/logos/python-5.svg'
@@ -163,5 +175,10 @@ export const TECH_BADGES = [
         image_id: "c_sharp_fs2ihn",
         url: 'https://res.cloudinary.com/mwritter/image/upload/c_fit,h_55,w_55/v1620647786/C_Sharp_r6ohhq.svg'
 
+    },
+    {
+        title: "Docker",
+        image_id: "docker",
+        url: 'https://cdn.worldvectorlogo.com/logos/docker.svg'
     },
 ]
