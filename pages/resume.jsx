@@ -33,7 +33,7 @@ const Resume = () => {
           <p>Software Engineer</p>
           <p>
             <i>
-              As a Softwear Engineer and recent graduate with a BS in Computer
+              As a Software Engineer and recent graduate with a BS in Computer
               Information Systems my focus is to better myself as a person and
               as a engineer. I am eager to learn and see all obstacles as an
               opportunity for growth.

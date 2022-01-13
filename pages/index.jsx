@@ -16,7 +16,7 @@ export default function Home() {
         <div className={styles.desc}>
           I'm a software engineer. I like to build things and I use software development
           to do just that. These are the technologies I'm currently working with
-          in my role as a softwear engineer and in my own projects.
+          in my role as a software engineer and in my own projects.
           I'm always finding new tools to solve problems, which means I'm always
           learning new things and I love that about software development.
         </div>

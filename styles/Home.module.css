@@ -36,3 +36,10 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .card-page {
+    width: 100%;
+    min-width: 100%;
+  }
+}
