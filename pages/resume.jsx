@@ -13,12 +13,6 @@ const Resume = () => {
           <h1 className="text-4xl text-center">Matthew Ritter</h1>
           <div className="grid gap-5 justify-center">
             <span>
-              <b>Phone:</b> 229-977-5525
-            </span>
-            <span>
-              <b>Address:</b> 441 Brookview Dr, Valdosta Ga
-            </span>
-            <span>
               <b>Email:</b> matthewwilliamritter@gmail.com
             </span>
             <span className={styles.gitLink}>
